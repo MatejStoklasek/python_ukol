@@ -9,6 +9,7 @@ products2 = [
 ]
 
 
+
 def print_products():
     for product in products:
         print(f"Název produktu: {product[0]}, ")
