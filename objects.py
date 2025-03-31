@@ -17,7 +17,7 @@ class Dog: #Přepis objektu
 
 dog = Dog("Alík", 1) # vždy první proměná malým. 2. Objekt každé slovo velkým / Istance třidy = objekt / v ojektu má vlastnosti
 dog2 = Dog("Hafík", 4)
-
+            
 dog.say_hello()
 dog2.say_hello()
 
