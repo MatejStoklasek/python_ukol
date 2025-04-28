@@ -60,12 +60,15 @@ def menu():
         print("")
     elif choice == 3:
         # TODO: převod
+        transfer()
         print("")
     elif choice == 4:
         # TODO: výběr
+        transfer()
         print("")
     elif choice == 5:
         # TODO: vklad
+        transfer()
         print("")
     else:
         print("Chybná akce, vyber znovu")
