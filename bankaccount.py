@@ -93,7 +93,7 @@ def transfer():
     index_to = int("Účet do kterého")
     amount = input("Částka:")
 
-    bank_accounts[int(index_from)].transfer(bank_accounts[int(index_to)], int(amount))
+    bank_accounts[int(index_to)].transfer(bank_accounts[int(index_from)], int(amount))
 
 
 menu()
