@@ -50,7 +50,7 @@ def menu():
     print("4 - výběr financí")
     print("5 - vklad financí")
 
-    choice =int( input("Zvolte akci:"))
+    choice =int(input("Zvolte akci:"))
     if choice == 1:
         # TODO: seznam
         print_accounts()
